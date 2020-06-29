@@ -50,5 +50,5 @@ id,name,favorite_fruits
 
 ## Example
 
-See [example](example/index.html)
+See [example](example/)
 
