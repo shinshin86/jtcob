@@ -3,6 +3,16 @@ jtcob is Json To Csv On Browser function
 
 
 
+## Setup (with a CDN)
+
+This line in the HTML completes the setup.
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/shinshin86/jtcob@master/index.js"></script>
+```
+
+
+
 ## Usage
 
 ```javascript
