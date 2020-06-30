@@ -11,6 +11,12 @@ This line in the HTML completes the setup.
 <script src="https://cdn.jsdelivr.net/gh/shinshin86/jtcob@master/index.js"></script>
 ```
 
+or minify file
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/shinshin86/jtcob@master/index.min.js"></script>
+```
+
 
 
 ## Usage
@@ -44,6 +50,15 @@ id,name,favorite_fruits
 1,AAA,Apple
 2,BBB,Banana
 3,CCC,Orange
+```
+
+
+
+## npm scripts
+
+```
+# minify
+npm run minify
 ```
 
 
