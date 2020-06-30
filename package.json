@@ -4,6 +4,7 @@
   "description": "JSON to CSV on Browser",
   "main": "index.js",
   "scripts": {
+    "minify": "uglifyjs --compress --mangle -- index.js > index.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,5 +15,8 @@
     "browser"
   ],
   "author": "shinshin86 <shinshin86npm@gmail.com> (https://github.com/shinshin86)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "uglify-js": "^3.10.0"
+  }
 }
