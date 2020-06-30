@@ -1,7 +1,6 @@
 # jtcob
+
 jtcob is Json To Csv On Browser function
-
-
 
 ## Setup (with a CDN)
 
@@ -17,27 +16,25 @@ or minify file
 <script src="https://cdn.jsdelivr.net/gh/shinshin86/jtcob@master/index.min.js"></script>
 ```
 
-
-
 ## Usage
 
 ```javascript
 var userListJson = [
   {
-      "id": 1,
-      "name": "AAA",
-      "favorite_fruits": "Apple"
+    id: 1,
+    name: 'AAA',
+    favorite_fruits: 'Apple',
   },
   {
-      "id": 2,
-      "name": "BBB",
-      "favorite_fruits": "Banana"
+    id: 2,
+    name: 'BBB',
+    favorite_fruits: 'Banana',
   },
   {
-      "id": 3,
-      "name": "CCC",
-      "favorite_fruits": "Orange"
-  }
+    id: 3,
+    name: 'CCC',
+    favorite_fruits: 'Orange',
+  },
 ];
 
 console.log(window.jtcob(userListJson)); // csv converted data
@@ -52,18 +49,16 @@ id,name,favorite_fruits
 3,CCC,Orange
 ```
 
-
-
 ## npm scripts
 
 ```
 # minify
 npm run minify
+
+# code format
+npm run fmt
 ```
-
-
 
 ## Example
 
 See [example](example/)
-

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "minify": "uglifyjs --compress --mangle -- index.js > index.min.js",
+    "fmt": "prettier --write '**/*.{js,json,md,html}'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -17,6 +18,10 @@
   "author": "shinshin86 <shinshin86npm@gmail.com> (https://github.com/shinshin86)",
   "license": "MIT",
   "devDependencies": {
+    "prettier": "^2.0.5",
     "uglify-js": "^3.10.0"
+  },
+  "prettier": {
+    "singleQuote": true
   }
 }
